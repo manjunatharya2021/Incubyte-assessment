@@ -31,6 +31,7 @@ def get_file(country):
     file_name = str(country)
     data.to_csv('C:/Users/Gaurav/downloads/' + country + ".csv")  # replace path with your desired path
     print("File has been created to the specified path")
+    
 
 
 # calling functions
